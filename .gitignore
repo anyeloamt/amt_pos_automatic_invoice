@@ -1,0 +1,49 @@
+﻿# Python files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+venv/
+.env
+
+# Odoo specific
+*.log
+*.session
+.odoo_serverrc
+localaddons/
+
+# PyCharm and IDE files
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Byte-compiled files
+*.egg-info/
+*.eggs/
+.eggs/
+*.egg
+dist/
+build/
+bin/
+lib/
+include/
+
+# Odoo generated
+*.db
+*.dump
+
+# Zip files of modules
+*.zip
+*.tar.gz
+
+# Node.js and front-end dependencies
+node_modules/
+bower_components/

@@ -1,0 +1,55 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* amt_pos_automatic_invoice
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-15 16:26+0000\n"
+"PO-Revision-Date: 2024-09-15 16:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: amt_pos_automatic_invoice
+#: model_terms:ir.ui.view,arch_db:amt_pos_automatic_invoice.view_res_config_settings_inherit
+msgid "Auto Invoice"
+msgstr "Auto generar factura"
+
+#. module: amt_pos_automatic_invoice
+#: model:ir.model,name:amt_pos_automatic_invoice.model_res_config_settings
+msgid "Config Settings"
+msgstr "Ajustes de configuración"
+
+#. module: amt_pos_automatic_invoice
+#: model_terms:ir.ui.view,arch_db:amt_pos_automatic_invoice.view_res_config_settings_inherit
+msgid "For controlling if PoS orders will generate invoice automatically"
+msgstr "Para controlar si las órdenes de PoS generarán factura automáticamente"
+
+#. module: amt_pos_automatic_invoice
+#: model:ir.model.fields,field_description:amt_pos_automatic_invoice.field_res_config_settings__pos_auto_invoice
+msgid "Generate Invoice Automatically"
+msgstr "Generar factura automáticamente"
+
+#. module: amt_pos_automatic_invoice
+#: model:ir.model,name:amt_pos_automatic_invoice.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "Órdenes del Punto de venta"
+
+#. module: amt_pos_automatic_invoice
+#: model_terms:ir.ui.view,arch_db:amt_pos_automatic_invoice.view_res_config_settings_inherit
+msgid ""
+"When enabled, POS orders will automatically generate an invoice when the "
+"order is processed"
+msgstr "Si se habilita, las órdenes de PoS generarán automáticamente una factura cuando se procese la orden"
+
+#. module: amt_pos_automatic_invoice
+#: model:ir.model.fields,help:amt_pos_automatic_invoice.field_res_config_settings__pos_auto_invoice
+msgid ""
+"When enabled, POS orders will automatically generate an invoice when the "
+"order is processed."
+msgstr "Si se habilita, las órdenes de PoS generarán automáticamente una factura cuando se procese la orden."
